@@ -1,0 +1,23 @@
+/*! \mainpage Simple API Rest
+
+\section intro_sec Introduction
+
+The <b>Simple API</b> library, serves to make REST requests easily. An example would be the following:
+
+\code{.java}
+	HttpRequest http = new HttpRequest("http://localhost/index.php");
+	http.sendGET();
+	System.out.println(http.readData());
+\endcode
+  
+This library offers the typical methods for API Rest that are the following:
+
+\code{.java}
+	sendGET()
+	sendPOST()
+	sendPUT()
+	sendDELETE()
+\endcode
+
+
+ */
