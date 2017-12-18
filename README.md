@@ -13,6 +13,20 @@ HttpRequest.sendDELETE();
 ```java
 HttpRequest.setContentType(String contentType);
 ```
+# Add Simple API to your project
+## With Maven
+```
+<dependency>
+    <groupId>com.tlaloc-es</groupId>
+    <artifactId>simpleapi</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
+
+## With Gradlew
+```
+compile 'com.tlaloc-es:simpleapi:0.0.1'
+```
 
 # Examples of use
 
