@@ -1,7 +1,25 @@
 # Simple-API
 A library to make API Rest requests in a simple way.
 
+# HTTP Methods for RESTFul avaliables
+```java
+HttpRequest.sendGET();
+HttpRequest.sendPOST();
+HttpRequest.sendPUT();
+HttpRequest.sendDELETE();
+```
+
+# Other methods
+```java
+HttpRequest.setContentType(String contentType);
+```
+
 # Examples of use
+
+## Set a specific user agent
+```java
+HttpRequest http = new HttpRequest("http://www.numbersapi.com/random/trivia/", "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0");
+```
 
 ## Making a request without data
 
